@@ -33,7 +33,6 @@ img{
 	position: absolute;
 	top: 0;
 	left: 0;
-	transition: all .5s ease-in-out;	
 }
 
 .description{
@@ -41,7 +40,6 @@ img{
 	position: absolute;
 	top: 0;
 	left: 0;
-	transition: all .5s ease-in-out;
 	background: #ff5722;
 	font-family: arial;
 	text-align: center;
@@ -51,10 +49,9 @@ img{
 	height: 100%;
 	color: #fff;
 	line-height: 22px;
-	transform:scale(0);
 	opacity: 0;
 }
 
-.container:active .description{
+.container:focus .description{
 	opacity: 1;
 }	

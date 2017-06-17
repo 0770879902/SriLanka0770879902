@@ -57,5 +57,4 @@ img{
 
 .container:active .description{
 	opacity: 1;
-	transform:scale(1);
 }	
